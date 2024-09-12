@@ -319,14 +319,14 @@ ament_cmake_symlink_install_files("/root/dev_ws/src/my_bot" FILES "/root/dev_ws/
 # install(FILES "/root/dev_ws/build/my_bot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_bot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 ament_cmake_symlink_install_files("/root/dev_ws/src/my_bot" FILES "/root/dev_ws/build/my_bot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_bot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/rolling/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_bot/environment")
-ament_cmake_symlink_install_files("/root/dev_ws/src/my_bot" FILES "/opt/ros/rolling/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_bot/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_bot/environment")
+ament_cmake_symlink_install_files("/root/dev_ws/src/my_bot" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_bot/environment")
 
 # install(FILES "/root/dev_ws/build/my_bot/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_bot/environment")
 ament_cmake_symlink_install_files("/root/dev_ws/src/my_bot" FILES "/root/dev_ws/build/my_bot/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_bot/environment")
 
-# install(FILES "/opt/ros/rolling/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_bot/environment")
-ament_cmake_symlink_install_files("/root/dev_ws/src/my_bot" FILES "/opt/ros/rolling/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_bot/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_bot/environment")
+ament_cmake_symlink_install_files("/root/dev_ws/src/my_bot" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_bot/environment")
 
 # install(FILES "/root/dev_ws/build/my_bot/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_bot/environment")
 ament_cmake_symlink_install_files("/root/dev_ws/src/my_bot" FILES "/root/dev_ws/build/my_bot/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_bot/environment")
