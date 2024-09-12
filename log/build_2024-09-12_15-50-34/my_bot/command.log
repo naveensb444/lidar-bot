@@ -1,4 +1,0 @@
-Invoking command in '/root/dev_ws/build/my_bot': /usr/bin/cmake --build /root/dev_ws/build/my_bot -- -j16 -l16
-Invoked command in '/root/dev_ws/build/my_bot' returned '0': /usr/bin/cmake --build /root/dev_ws/build/my_bot -- -j16 -l16
-Invoking command in '/root/dev_ws/build/my_bot': /usr/bin/cmake --install /root/dev_ws/build/my_bot
-Invoked command in '/root/dev_ws/build/my_bot' returned '0': /usr/bin/cmake --install /root/dev_ws/build/my_bot
